@@ -1,0 +1,25 @@
+.stFooter{
+    background-color: #4a4a4a;
+    padding: 10px 0 40px 0;
+    text-align: center;
+    
+}
+
+.sndFooter{
+    background-color: #282828;
+    color: #f2f2f2;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.stFooter img{
+    width:190px
+}
+
+.stFooter a{
+    border-right: 1px solid #f2f2f2;
+    margin-right: 0.5em;
+    padding: 0.2em 1em 0.2em 0;
+    color: #f2f2f2;
+}

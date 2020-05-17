@@ -1,0 +1,294 @@
+
+body{
+    font-family: 'Helvetica';
+    color:#4A4A4A;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+p{
+    font-size: 0.875rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* --- Background Colors --- */
+
+.cWhite{
+    color:white
+}
+
+.green{
+    background-color: #75b800;
+}
+
+.cGreen{
+    color: #75b800;
+}
+
+.ligthgray{
+    background-color: #F2F2F2;
+}
+
+.gray{
+    background-color: #859cc0;
+}
+
+.cGray{
+    color: #859cc0;
+
+}
+
+.darkblue{
+    background-color: #305077;
+}
+
+.cDarkBlue{
+    color: #1581CF
+}
+
+.blue{
+    background-color: #52B5FF;
+}
+
+.cBlue{
+    color: #52B5FF;
+}
+
+.orange{
+    background-color: #e67e22;
+}
+
+.patternBG{
+    background-image: url(/pattern2.png);
+}
+
+.greenWrapper{
+    background: linear-gradient(45deg, #75b800 0%, #a7ea33 100%)
+}
+
+.redWrapper{
+    background: linear-gradient(45deg, #f74b53 0%, #f7931e 100%)
+}
+
+.purpleWrapper{
+    background: linear-gradient(45deg, #93278f 0%, #e76ce3 100%);
+}
+
+
+
+/* Cards */
+
+.carde{
+    border-radius: 10px 10px 0px 0px;
+    height: 100%;
+    box-shadow: 0 0 6px rgba(0,0,0,0.4);
+    transition: all 0.2s ease-out;
+}
+
+.cardGrow:hover{
+    transform: scale(1.05);
+    
+    
+}
+
+.cardTitle{
+    border-radius: 10px 10px 0px 0px;
+    padding: 1rem;
+    color:white;
+}
+
+.cardBody{
+    display: flex;
+}
+
+.cardBodySection{
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.carde h2{
+    font-size: 28px;
+    margin:0;
+}
+
+.carde h3{
+    font-size: 24px;
+    margin:0;
+}
+
+.carde h4{
+    font-size: 20px;
+    margin:0;
+}
+
+.cardFooter{
+    border-radius: 0px 0px 10px 10px;
+    padding: 2rem 40px;
+    text-align: center;
+}
+
+.bigCardDecoration{
+    width: auto;
+    max-width: 100%;
+}
+
+.cardDecoration{
+    max-width: 146px;
+    margin-top: -45px;
+}
+
+/* Wrappers */
+.textWrapper{
+    color:#4A4A4A;
+    text-align: left;
+    padding: 10px 0px 10px 20px;
+}
+.imgWrapper150{
+    max-width: 150px;
+}
+.imgWrapper900{
+    max-width: 900px;
+}
+.imgWrapper{
+    width: 100%;
+}
+
+
+/* --- Buttons --- */
+
+.cardFooterBtn, .blueLink, .outlineBtn, .journalBtn{
+    padding: 10px 30px;  
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.cardFooterBtn{
+    background: #ffffff;
+    color: #4A4A4A;
+}
+
+.cardFooterBtn:hover{
+    background-color: #E1E1E1;
+}
+
+.blueLink{
+    background: #52B5FF;
+    color: #ffffff;
+    margin:1rem 0rem
+}
+
+.blueLink:hover{
+    background-color: #1D7CC4;
+    color:white;
+    
+}
+
+.outlineBtn {
+    color: #52B5FF;
+    background: #ffffff;
+    border: #52B5FF 1px solid;
+}
+
+.outlineBtn:hover{
+    background-color: #52B5FF;
+    color:white;
+    
+}
+
+.journalBtn{
+    background-color: #ffffff;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: #305077;
+}
+
+.journalBtn:hover{
+    background-color: #E1E1E1; 
+}
+
+.smBtn{
+    padding: 5px 20px;
+    font-size: 12px;
+}
+
+
+
+
+
+/* --- Corners --- */
+
+.roundedCorners{
+    border-radius: 20px;
+}
+
+.roundedTopCorners{
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.roundedBotCorners{
+    border-radius: 0px 0px 20px 20px ;
+    
+}
+
+/* --- etc --- */
+.bigP{
+    font-size: 1.25rem;
+}
+
+.bigHeading{
+    font-size: 2.5rem;
+}
+
+.smallHeading{
+    font-size: 2rem;
+}
+
+.full{
+    width:100%
+}
+.half{
+    width:50%
+}
+
+.noUlStyle{
+    list-style: none;
+    padding:0;
+}
+
+
+.noBold{
+    font-weight: normal;
+}
+
+.bold{
+    font-weight: bold;
+}

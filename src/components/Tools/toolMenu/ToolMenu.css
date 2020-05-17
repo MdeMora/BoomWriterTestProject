@@ -1,0 +1,48 @@
+.navIcon {
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.navLink{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #999999;
+}
+
+.navLink:hover{
+    color: #4a4a4a;
+    font-weight: bold;
+    
+}
+
+.linkGreen{
+    background: #75b800;
+}
+
+.toolNav{
+    display: none;
+    min-width: 190px;
+}
+
+.liSelected{
+    color: #4a4a4a;
+    font-weight: bold;
+    
+}
+
+@media screen and (min-width: 991px){
+    .toolNav {
+        display: flex;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
