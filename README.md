@@ -7,7 +7,7 @@ To run:
 
 ### Download
 ### npm i
-### pm start
+### npm start
 
 
 
