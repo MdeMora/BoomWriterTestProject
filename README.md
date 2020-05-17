@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Started at 11:00 am 17/05/2020
+Finished at 7:35 am 18/05/2020
+
+To run:
+
+### Download
+### npm i
+### pm start
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -67,4 +78,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-Started at 11:00 am
+
+
+
